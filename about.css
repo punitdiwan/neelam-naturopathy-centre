@@ -1,0 +1,38 @@
+
+.joseph img{
+    padding-top: 0;
+    margin-top: -3rem;
+    width: 35rem;
+}
+.joseph-p p{
+    font-size: 1.5rem;
+    color: rgb(94, 94, 94);
+    font-style: italic;
+    border-left: 1px solid rgb(136, 136, 136);
+    padding: 1vw;
+}
+.joseph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width:517px){
+    .joseph{
+        flex-direction: column;
+    }
+    .joseph img{
+        width: 50rem;
+        margin-bottom: 1rem;
+    }
+    .joseph-p p{
+        border-left:none;
+    }
+          .navbar h1 {
+              font-size: 2.5rem;
+          }
+    .joseph-p{
+        width: 80%;
+
+    }
+}

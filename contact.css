@@ -1,0 +1,149 @@
+.my-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 3vw;
+    text-decoration: none;
+}
+
+.my-whatsapp h1 {
+    font-size: 4rem;
+}
+
+/* ===================================================== */
+/* social icons */
+.whatsapp {
+    background-color: #25D366;
+    padding: 1rem;
+    border-radius: 10px 10px;
+    height: 5rem;
+    overflow: hidden;
+    transition: 2s all ease-in-out;
+}
+
+.whatsapp:hover {
+    height: auto;
+    transition: 2s all ease-in-out;
+}
+
+.whatsapp a,
+fa-whatsapp {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* ============================================ */
+/* insta */
+.insta {
+    background-color: #4158D0;
+    background-image: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 1rem;
+    border-radius: 10px 10px;
+    height: 5rem;
+    overflow: hidden;
+}
+
+.insta:hover {
+    height: auto;
+    overflow: visible;
+}
+
+.insta a,
+fa-instagram {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* ===================================================== */
+/* facebook */
+.fb {
+    background-color: #3b5998;
+    padding: 1rem;
+    border-radius: 10px 10px;
+    height: 5rem;
+    overflow: hidden;
+}
+
+.fb:hover {
+    height: auto;
+    overflow: visible;
+}
+
+.fb a,
+fa-whatsapp {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* ===================================================== */
+/* payment */
+.payment {
+    background-color: #FF5733;
+    padding: 1rem;
+    border-radius: 10px 10px;
+    height: 5rem;
+    overflow: hidden;
+}
+
+.payment:hover {
+    height: auto;
+    overflow: visible;
+}
+
+.payment a,
+fa-indian-rupee-sign {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+
+.my-contact a {
+    text-decoration: none;
+    color: #e47839;
+}
+
+.my-contact a,
+p {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.my-map {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.my-map iframe {
+    width: 100%;
+}
+
+
+
+/* ============================================*/
+
+.social-contact p img {
+    width: 10rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+/* media social icons */
+@media (max-width:492px) {
+    .social-contact {
+        flex-direction: column;
+    }
+          .navbar h1 {
+              font-size: 2.5rem;
+          }
+}
